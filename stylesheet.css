@@ -1,0 +1,329 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                       @NAVBAR                                     |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.navbar-toggler{
+    color: #e7eeee;;
+}
+
+.navbar-toggler-icon {
+    color: #e7eeee;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                   @LANDING_PAGE                                   |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.landing-section{
+    background-color: #007bff;
+    padding: 5rem 0rem;
+    width: 80%;
+    margin: 8rem auto 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .landing-section{
+        padding: 5rem 1rem; 
+    }
+}
+
+.cards{
+    color: honeydew;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .cards{
+        padding: 5rem 1rem; 
+        width: 100%;
+        margin: auto;
+        
+    }
+
+}
+
+
+
+.cards p{
+    padding: 10px;
+    margin: auto;
+}
+
+.card-heading{
+    text-align: center;
+}
+
+
+.buttons {
+    color: #fff !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    background-color: #007bff !important;
+    width: max-content;
+    font-weight: bolder;
+
+}
+
+.buttons:hover {
+  background-color: #3a5c59 !important;
+}
+
+.buttons:focus {
+  background-color: #3a5c59 !important;
+  color: white !important; 
+}
+
+.buttons:active {
+    background-color: #467370 !important;
+}
+
+.two-buttons{
+    align-content: center;
+    text-align: center;
+}
+
+.mainHeading{
+    color: honeydew;
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 576px) {
+    .mainHeading{
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mainHeading{
+        font-size: 10rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mainHeading{
+        font-size: 9.5rem;
+    }
+}
+
+.subheading{
+    color: honeydew;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                   @ABOUT_SECTION                                  |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.about-section{
+    padding-top: 4rem;
+    color: #75918e;
+    background-color: #d1f3f0;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+#aboutMe{
+    
+    padding: 3rem;
+    margin: auto;
+}
+
+#aboutMe p{
+    color: rgb(117, 117, 117);
+}
+
+@media screen and (min-width: 768px) {
+    #aboutMe{
+        padding: 5rem 0rem; 
+        width: 80%;
+        margin: auto;
+    
+    }
+}
+
+img{
+    max-height: 35rem;
+}
+
+.social{
+    padding: 1rem;
+}
+
+.social a:active{
+    color: #fff;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-github{
+    color: #171515;
+}
+
+.fa-linkedin a:hover{
+    color: #75918e;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ SERVICES SECTION @@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3{
+    color:#264de4;
+}
+
+.fa-js{
+    color:rgb(255, 196, 0);
+}
+
+.fa-figma{
+    text-transform: capitalize;
+}
+
+.fa-bootstrap{
+    color: #553C7B;
+}
+
+#adobexd{
+    width: 3rem;
+}
+
+#figma{
+    width: 2rem;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@@@@@@@@@@ */
+
+footer{
+    color: honeydew;
+    padding-top: 5rem;
+    /*background: linear-gradient(to bottom, #d1f3f0 0%, #75918e 100%);*/
+    height: auto;
+    
+}
+
+.footer2{
+    padding: 4rem 0 2rem;
+}
+
+.fa-whatsapp{
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4FCE5D;
+    color: white !important;
+}
+
+.fa-phone{
+    color: #007bff;
+}
+
+.fa-envelope{
+    color: #007bff;
+}
+
+.contact{
+    padding: 4rem;
+}
+
+.footer-section{
+    padding: 5rem 2rem 2rem;
+}
+
+.footer-section .card{
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+
+.footer-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+
+.footer-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+
+  
+
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                   @ABOUT_PAGE                                     |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.active{
+    color: #d1f3f0 !important;
+    border-bottom: #d1f3f0 solid 4px;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                  @PORTFOLIO_PAGE                                  |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                 @PORTFOLIO_SECTION                                |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.portfolio-section .row{
+    width: 70%;
+    padding: 5rem 10px;
+    background-color: #75918e;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.portfolio-section h1{
+    color: #d1f3f0;
+}
