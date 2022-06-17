@@ -3,11 +3,7 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-<<<<<<< HEAD
     font-family: 'Varela Round', sans-serif !important;
-=======
-    font-family: 'Varela Round', sans-serif;
->>>>>>> 99edc99e96bd1f3866eb2b67dea837816b5727a3
 }
 
 body a{
@@ -35,6 +31,7 @@ nav{
 }
 
 .navbar-toggler-icon {
+    width: 20px !important;
     color: #e7eeee;
 }
 
@@ -48,7 +45,7 @@ nav{
     background-color: #007bff;
     padding: 5rem 0rem;
     width: 85%;
-    margin: 8rem auto 5rem;
+    margin: 4rem auto 5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -143,6 +140,35 @@ nav{
     color: honeydew;
 }
 
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3{
+    color:#264de4;
+}
+
+.fa-js{
+    color:rgb(255, 196, 0);
+}
+
+.fa-figma{
+    text-transform: capitalize;
+}
+
+.fa-bootstrap{
+    color: #553C7B;
+}
+
+#adobexd{
+    width: 2.3rem;
+}
+
+#figma{
+    font-size: small;
+    width: 1.5rem;
+}
+
 /*----------------------------------------------------------------------------------\
 |                                                                                   |
 |                                   @ABOUT_SECTION                                  |
@@ -158,8 +184,7 @@ nav{
     margin-bottom: 5rem;
 }
 
-#aboutMe{
-    
+#aboutMe{ 
     padding: 3rem;
     margin: auto;
 }
@@ -201,34 +226,6 @@ img{
     color: #75918e;
 }
 
-.fa-html5{
-    color: orangered;
-}
-
-.fa-css3{
-    color:#264de4;
-}
-
-.fa-js{
-    color:rgb(255, 196, 0);
-}
-
-.fa-figma{
-    text-transform: capitalize;
-}
-
-.fa-bootstrap{
-    color: #553C7B;
-}
-
-#adobexd{
-    width: 3rem;
-}
-
-#figma{
-    width: 2rem;
-}
-
 /*----------------------------------------------------------------------------------\
 |                                                                                   |
 |                                     @FOOTER                                       |
@@ -238,7 +235,6 @@ img{
 footer{
     color: honeydew;
     padding-top: 5rem;
-    /*background: linear-gradient(to bottom, #d1f3f0 0%, #75918e 100%);*/
     height: auto;
     
 }
@@ -249,8 +245,6 @@ footer{
 
 .fa-whatsapp{
     padding: 3px;
-    width: 40px;
-    height: 40px;
     border-radius: 4px;
     background-color: #4FCE5D;
     color: white !important;
@@ -315,7 +309,37 @@ footer{
 \---------------------------------------------------------------------------------*/
 
 .active{
-    border-bottom: #d1f3f0 solid 4px;
+    border-bottom: #75918e solid 4px;
+}
+
+.image-div{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-card{
+    padding: 2rem;
+}
+
+@media screen and (min-width: 900px){
+    
+    .image-div{
+        display: block;
+        max-width: 800px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+}
+
+.skills-div{
+    color: rgb(117, 117, 117);
+}
+
+.footer3{
+    padding: 4rem 0;
 }
 
 /*----------------------------------------------------------------------------------\
@@ -324,23 +348,7 @@ footer{
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
 
-<<<<<<< HEAD
-=======
-/*----------------------------------------------------------------------------------\
-|                                                                                   |
-|                                 @PORTFOLIO_SECTION                                |
-|                                                                                   |
-\---------------------------------------------------------------------------------*/
-
-.portfolio-section .row{
-    width: 70%;
-    padding: 5rem 10px;
-    background-color: #75918e;
-    margin: auto;
-    margin-bottom: 5rem;
+.portHeading{
+    color: #75918e;
+    font-size: 2.5rem;
 }
-
-.portfolio-section h1{
-    color: #d1f3f0;
-}
->>>>>>> 99edc99e96bd1f3866eb2b67dea837816b5727a3
