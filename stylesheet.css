@@ -10,6 +10,11 @@ body a{
     text-decoration: none;
 }
 
+body ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -342,6 +347,22 @@ footer{
 .footer3{
     font-size: 0.6rem !important;
     padding: 4rem 0;
+}
+
+#aboutContact{
+    color: rgb(117, 117, 117);
+}
+
+#aboutContact li{
+    font-size: small;
+}
+
+#aboutContact ul{
+    padding-left: 0;
+}
+
+.stack p{
+    font-size: 0.6rem;
 }
 
 /*----------------------------------------------------------------------------------\
