@@ -10,7 +10,7 @@ body a{
     text-decoration: none;
 }
 
-body ul{
+body li, ul{
     list-style-type: none;
     text-decoration: none;
 }
@@ -248,6 +248,10 @@ img{
     color: #d1f3f0;
 }
 
+#portfolioImage{
+    opacity: 0.6;
+}
+
 /*----------------------------------------------------------------------------------\
 |                                                                                   |
 |                                     @FOOTER                                       |
@@ -313,6 +317,10 @@ footer{
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
 
+#aboutPage{
+    background-color: #d1f3f0;
+}
+
 .active{
     color: #75918e !important;
     border-bottom: #75918e solid 4px;
@@ -371,7 +379,45 @@ footer{
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
 
+.flowers-container{
+    padding: 1.5rem;
+}
+
+.featured-text {
+    padding: 2rem;
+  }
+
+@media (min-width: 776px) {
+    .flowers-container{
+        max-width: 80%;
+        margin: auto;
+    }
+  }
+
+@media screen and (min-width: 992px){
+    .flowers-container{
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .flowers .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid #64a19d;
+    }
+
+    .resume-site .featured-text {
+        padding: 0 2rem 0 0;
+        border-right: 0.5rem solid #64a19d;
+    }
+}
+
 .portHeading{
-    color: #75918e;
+    color: #d1f3f0;
     font-size: 2.5rem;
 }
+
+.active{
+    color: #75918e;
+    border-bottom: #75918e solid 4px;
+}
+
