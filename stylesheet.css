@@ -317,8 +317,25 @@ footer{
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
 
-#aboutPage{
-    background-color: #d1f3f0;
+.page-heading{
+    background-color: #75918e
+}
+
+.page-heading h1{
+    padding: 1rem;
+    color: white;
+}
+
+@media screen and (min-width: 776px){
+    .page-heading h1{
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .page-heading h1{
+        padding: 5rem;
+    }
 }
 
 .active{
