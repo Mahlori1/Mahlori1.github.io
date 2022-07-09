@@ -238,7 +238,7 @@ img{
 
 .portfolio-section .row{
     width: 85%;
-    padding: 5rem 10px;
+    padding: 5rem 3rem;
     background-color: #75918e;
     margin: auto;
     margin-bottom: 5rem;
@@ -249,7 +249,8 @@ img{
 }
 
 #portfolioImage{
-    opacity: 0.6;
+    border-radius: 5px;
+    opacity: 0.8;
 }
 
 /*----------------------------------------------------------------------------------\
@@ -354,7 +355,6 @@ footer{
 }
 
 @media screen and (min-width: 900px){
-    
     .image-div{
         display: block;
         max-width: 800px;
@@ -396,36 +396,31 @@ footer{
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
 
-.flowers-container{
+.projects-container{
     padding: 1.5rem;
 }
 
-.featured-text {
-    padding: 2rem;
-  }
+.download-buttons{
+    font-size: 70% !important;
+}
 
 @media (min-width: 776px) {
-    .flowers-container{
+    .download-buttons{
+        font-size: 80% !important;
+    }
+
+    .projects-container{
         max-width: 80%;
         margin: auto;
     }
-  }
+}
 
 @media screen and (min-width: 992px){
-    .flowers-container{
+    .projects-container{
         max-width: 75%;
         margin: auto;
     }
 
-    .flowers .featured-text {
-      padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #75918e;
-    }
-
-    .resume-site .featured-text {
-        padding: 0 2rem 0 0;
-        border-right: 0.5rem solid #75918e;
-    }
 }
 
 .portHeading{
@@ -436,5 +431,17 @@ footer{
 .active{
     color: #75918e;
     border-bottom: #75918e solid 4px;
+}
+
+#python{
+    width: 2rem;
+}
+
+#cplusplus{
+    width: 2rem;
+}
+
+#reactjs{
+    width: 2.3rem;
 }
 
