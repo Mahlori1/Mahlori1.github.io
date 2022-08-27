@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,168 +16,72 @@
     <title>Hactor Mahlori Mavunda</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="homeNav">
-        <div class="container-fluid" id="navbar">
-          <a class="navbar-brand brand-name" href="index.html">H.M Mavunda</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="homeNav"> 
+      <div class="container" id="navbar">
+        <a class="navbar-brand brand-name" href="index.html">HACTOR MAVUNDA</a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse navbar-scroll" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: max-content;">
-
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link " href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item mx-lg-2">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-            </ul>
-            <a class="btn buttons" href="#contact">Contact me</a>
-          </div>
+        <div class="collapse navbar-collapse navbar-scroll justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav my-2 my-lg-0" style="--bs-scroll-height: max-content;">
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link " href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       
       <header class="landing-section" >
-        
-        <div class="col-md-12 text-center text-uppercase mb-5">
-          <h1 class="mainHeading">Freelance</h1>
-          <h1 class="subheading display-4">UI Designer & Front-end Developer</h1>
-        </div>
+        <div class="row justify-content-center mx-auto ">
+          <div class="col-md-5">
+            <div class="text-center">
+              <img id="displayImage" src="images/image6.png" alt="">
+            </div> 
+          </div>
 
-        <div class="row justify-content-center">  
-          <div class="col-md-4 mb-4">
-            <div class="cards py-0 my-0">
-              <h2 class="card-heading">UI Design</h2>
-              <hr>
-              <p>I view my designs from the end-user's perspective.</p>
-              <p>I keep things simple, yet innovative. </p>
-
-              <div class="col-12 d-flex stack justify-content-center my-3">
-                <i class="text-center text-capitalize" ><img class="mx-3" id="figma" src="figma.svg"  alt=""><br><p style="font-size: small">figma</p></i>
-                <i class="text-center text-capitalize" ><img class="mx-3" id="adobexd" src="adobexd.svg" alt=""><br><p style="font-size: small;">adobexd</p></i>
-              </div>
+          <div class="col-md-7 text-center text-md-start order-md-first">
+            <div class="col-md-12 text-uppercase mb-1">
+              <h1 class="display-1 text-muted">Hactor Mavunda</h1>
+              <h1 class="subheading display-6 text-muted">UI Designer & Front-end Developer</h1>
             </div>
-          </div>  
-          <div class="col-md-5 my-0">
-            <div class="cards py-0 my-0"> 
-              <h2 class="card-heading">Frontend Web Development</h2>
-              <hr>
-              <p>I develop responsive webs that look good accross screens of different sizes.</p>
-              <p>I'm always working on projects, which you can find on my Github page so you can judge my capabilities yourself.</p>
-              
-              <div class="col-12 d-flex stack justify-content-center my-3">
-                <i class="fab fa-2x fa-html5 mx-2"></i>
-                <i class="fab fa-2x fa-css3 mx-2"></i>
-                <i class="fab fa-2x fa-js mx-2"></i>
-                <i class="fab fa-2x fa-bootstrap mx-2"></i>
-              </div>  
             
+            <p class="mt-5 mb-1 text-muted">Contact me</p>
+            <a href="mailto: hectormavunda@gmail.com" class="btn btn-primary me-3"><i class="fa fa-envelope me-1"></i>Email</a>
+            <a href="https://wa.me/27820524841" class="btn btn-success"><i class="fab fa-whatsapp me-1"></i>WhatsApp</a>
+
+            <p class="mt-4 mb-1 text-muted">Profiles</p>
+            <div class="col-12 d-flex my-0 mb-2">
+              
+              <a href="https://linkedin.com/in/hactor-mavunda-11485354/" class="me-3" target="_blank">
+                <i class="fab fa fa-linkedin"></i>LinkedIn
+              </a>
+              <a href="https://github.com/Mahlori1" class="mx-3" target="_blank">
+                <i class="fab fa fa-github"></i>GitHub
+              </a>
+              <a href="https://my.indeed.com/p/hactorm-fzgmdaq" class="mx-3" target="_blank">
+                Indeed Resume
+              </a>
+              <a href="https://www.smartr.me/me/hactor.mavunda" class="mx-3" target="_blank">
+                Smartr Resume
+              </a>
+            </div>
+            
+            <div class="footer small text-center align-items-end">
+              &copy; 2022 Hactor Mahlori Mavunda
             </div>
           </div>
+  
         </div>
       </header>
-
-      <section class="about-section justify-content-center align-items-center">
-        <h1 class="display-2 text-center">Hello, world!</h1>
-        <div id="aboutMe" class="row">
-          <div class="col-md-6">
-            <img class="img-fluid" src="images/image5.png" alt="">
-          </div>
-          <div class="col-md-6" style="padding-top: 3rem;">
-            <p class="display-6">Hi there! I'm Hactor, I design user experiences (both Apps and Webs) and develop the visual side of the website (basically what you <strong style="color: #007bff;">see</strong> on this webpage now).  </p>
-            <br>
-            <p style="font-size: larger;">Whether you're on the start-up, established or simply want a personal site, give me a call and we'll take it from there...</p>
-            
-            <div class="row justify-content-center">
-              <a class="btn buttons col-auto my-3" href="about.html">see full profile</a>
-            </div>
-            
-            
-            <div class="social d-flex justify-content-center">
-              <a href="https://linkedin.com/in/hactor-mavunda-11485354/" class="mx-2" target="_blank">
-                <i class="fab fa-4x fa-linkedin"></i>
-              </a>
-    
-              <a href="https://github.com/Mahlori1" class="mx-2" target="_blank">
-                <i class="fab fa-4x fa-github"></i>
-              </a>
-            </div>
-          </div> 
-        </div>
-
-      </section>
-      
-      <section id="portfolio" class="portfolio-section">
-        <div class="row justify-content-center description">
-          <h1 class="display-2 text-center my-2">Check my work</h1>
-          <div class="col-lg-6">
-            <p class="display-6 my-2">I love sharing my work,<br> so if you're looking for some designs, templates, or just to see my work, please head over to my <a style="color: #007bff;" href="portfolio.html">portfolio</a>.</p>
-            <p style="font-size: larger;">You are welcome to download, modify and use my work anyhow you like.</p>
-          </div>
-        
-          <div class="col-lg-6 my-2">
-            <img src="images/laptop.jpg" alt="" class="img-fluid" id="portfolioImage">
-          </div>
-
-          <a class="btn buttons col-auto" href="portfolio.html">see portfolio</a>
-        </div>
-        
-      </section>
-      
-      <footer class="footer-section bg-dark" id="contact">
-        <div class="contact justify-content-center">
-          <h1 class="display-1 text-center">Contact me</h1>
-        </div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-3 mb-3 mb-md-0">
-             <div class="card py-4 h-100">
-               <div class="card-body text-center">
-                 <i class="fas fa-2x fa-envelope mb-2"></i>
-                 <div class="small" style="color: rgb(117, 117, 117);">
-                   <p>hectormavunda@gmail.com</p>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="col-md-3 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fab fa-2x fa-whatsapp mb-2"></i>
-                  <div class="small">
-                    <a href="https://wa.me/27820524841" target="_blank">082 052 4841</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-2x fa-phone mb-2"></i>
-                  <div class="small" style="color: rgb(117, 117, 117);">
-                    <p >081 767 9521</p>
-                  </div>
-                </div>
-              </div>
-         </div>
-        </div>
-      
-        <div class="footer2 small text-center align-items-end">
-          &copy; 2022 Hactor Mahlori Mavunda
-        </div>
-      </footer>
-    
-    
-    
-    <script src="jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     
 </body>

@@ -1,0 +1,310 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+body a{
+    text-decoration: none;
+}
+
+body li, ul{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                       @NAVBAR                                     |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+nav{
+    padding: 0 10%;
+    /*height: 5rem;*/
+}
+
+@media screen and (min-width: 1200px) {
+    nav{
+        height: 5rem;
+    }
+
+    .active{
+        border-bottom: #75918e solid 4px;
+    }
+}
+
+.navbar-toggler{
+    color: #e7eeee;;
+}
+
+.navbar-toggler-icon {
+    width: 20px !important;
+    color: #e7eeee;
+}
+
+.navbar-brand {
+    color: black !important;
+}
+
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                   @LANDING_PAGE                                   |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.landing-section{
+    color: #171515;
+    padding: 0;
+    width: 85%;
+    margin: 4rem auto 2rem;
+}
+
+#displayImage {
+    max-height: 30rem;
+}
+
+@media screen and (min-width: 768px) {
+    .landing-section{
+        width: 80%;
+        padding: 2rem 0rem 1rem; 
+    }
+}
+
+.cards{
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .cards{
+        padding: 5rem 1rem; 
+        width: 100%;
+        margin: auto;
+        
+    }
+
+}
+
+.cards p{
+    padding: 5px;
+    margin: auto;
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.buttons {
+    color: #fff !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+    background-color: #007bff !important;
+    width: max-content;
+    font-weight: bolder;
+
+}
+
+.buttons:hover {
+  background-color: #3a5c59 !important;
+}
+
+.buttons:focus {
+  background-color: #3a5c59 !important;
+  color: white !important; 
+}
+
+.buttons:active {
+    background-color: #467370 !important;
+}
+
+.mainHeading{
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .mainHeading{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mainHeading{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mainHeading{
+        font-size: 6.5rem;
+    }
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3{
+    color:#264de4;
+}
+
+.fa-js{
+    color:rgb(255, 196, 0);
+}
+
+.fa-figma{
+    text-transform: capitalize;
+}
+
+.fa-bootstrap{
+    color: #553C7B;
+}
+
+#adobexd{ 
+    width: 1.9rem;
+}
+
+#figma{
+    width: 1.35rem;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-github{
+    color: #171515;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                     @FOOTER                                       |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.footer{
+    font-size: 0.6rem !important;
+    padding: 3rem 0;
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                   @ABOUT_PAGE                                     |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.page-heading{
+    background-color: #75918e;
+    color: white !important;
+    margin: 0 2rem; 
+}
+
+.page-heading h1{
+    padding: 1rem;
+}
+
+@media screen and (min-width: 776px){
+    .page-heading h1{
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .page-heading h1{
+        padding: 5rem;
+    }
+}
+
+.active{
+    color: #75918e !important;
+    
+}
+
+.image-div{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-card{
+    padding: 2rem;
+}
+
+@media screen and (min-width: 900px){
+    .image-div{
+        display: block;
+        max-width: 800px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    
+}
+
+.skills-div{
+    color: rgb(117, 117, 117);
+}
+
+/*----------------------------------------------------------------------------------\
+|                                                                                   |
+|                                  @PORTFOLIO_PAGE                                  |
+|                                                                                   |
+\---------------------------------------------------------------------------------*/
+
+.projects-container{
+    padding: 1.5rem;
+}
+
+.download-buttons{
+    font-size: 70% !important;
+}
+
+@media (min-width: 776px) {
+    .download-buttons{
+        font-size: 80% !important;
+    }
+
+    .projects-container{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .projects-container{
+        max-width: 75%;
+        margin: auto;
+    }
+
+}
+
+.portHeading{
+    color: #d1f3f0;
+    font-size: 2.5rem;
+}
+
+#python{
+    width: 2rem;
+}
+
+#cplusplus{
+    width: 2rem;
+}
+
+#reactjs{
+    width: 2.3rem;
+}
+

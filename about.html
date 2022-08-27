@@ -7,7 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,15 +43,16 @@
 </head>
 <body id="aboutPage" >
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="aboutNav">
+    
+    
     <div class="container-fluid" id="navbar">
-      <a class="navbar-brand brand-name" href="index.html">H.M Mavunda</a>
-
+      <a class="navbar-brand brand-name" href="index.html">HACTOR MAVUNDA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: max-content;">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+        <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll justify-content-end" style="--bs-scroll-height: max-content;">
           <li class="nav-item mx-lg-2">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -61,11 +62,7 @@
           <li class="nav-item mx-lg-2">
             <a class="nav-link " href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item mx-lg-2">
-            <a class="nav-link " href="blog.html">Blog</a>
-          </li>
         </ul>
-        <a class="btn buttons" href="#aboutContact">Contact me</a>
       </div>
     </div>
   </nav>
@@ -76,7 +73,7 @@
     </div>
 
     <div class="mainHeading">
-      <h1 class="display-5 display-md-3  text-center mt-5 mb-0" style="color: #75918e;">Hactor Mahlori Mavunda</h1>
+      <h1 class="display-5 display-md-3  text-center mt-5 mb-0 pt-3" style="color: #363636;">Hactor Mahlori Mavunda</h1>
     </div> 
   </header>
    
@@ -84,7 +81,6 @@
     <div class="about-card">
       <div class="image-div d-block mx-auto">
         <img id="aboutImage" src="images/image1.jpg" class="img-fluid img-thumbnail" alt="picture">
-        <p style="color: #75918e;" class="display-5 text-center py-3">I'm a Front-end Web Developer, and a UI Designer.</p>
         <P style="color: #363636;" class="h3"><strong>Professionally, I'm interested in IT, Data Sciences, AI, Machine Learning, and my most favourite of all - Software development.</strong></P>
         <p style="font-size: larger;">I have a Bachelor of Science degree, with Computational and Applied Mathematics, and Mathematics as majors. I also did some Computer Sciences courses such as Data Structures and Algorithms, and Database fundamentals. I have also made taking Data Science short courses from coursera.org a habit.
           <br>I believe in continuous learning of new skills and creating my own things, turning ideas into reality. 
@@ -92,7 +88,7 @@
         <P style="font-size: larger;" class="mb-5">I'm always working on a project, so if you'd like to see some of my in-progress work please head over to my <a href="https://github.com/Mahlori1" style="color: #007bff;" target="_blank">GitHub</a> page.</P>
       
         <div class="row skills-div">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h4 class="text-center"><strong>My stack</strong></h4>
             <h6 class="text-center my-1">Front-end Web Development</h6>
             <div class="col-12 d-flex stack justify-content-center my-0 mb-4">
@@ -104,52 +100,35 @@
             
             <h6 class="text-center">UI Design</h6>
             <div class="col-12 d-flex stack justify-content-center my-1 mb-4">
-              <i class="text-center text-capitalize" ><img class="mx-3" id="figma" src="figma.svg"  alt=""><br><p>figma</p></i>
-              <i class="text-center text-capitalize" ><img class="mx-3" id="adobexd" src="adobexd.svg" alt=""><br><p>adobexd</p></i>
+              <i class="text-center text-capitalize" ><img class="mx-3" id="figma" src="svg/figma.svg"  alt=""><br><p>figma</p></i>
+              <i class="text-center text-capitalize" ><img class="mx-3" id="adobexd" src="svg/adobexd.svg" alt=""><br><p>adobexd</p></i>
             </div>  
           </div>
 
-          <div class="col-md-4 justify-content-center text-center mb-2">
+          <div class="col-md-6 justify-content-center text-center mb-0">
             <h4 class="mx-auto"><strong>Other</strong></h4>
             <h6 class="text-center">Coding</h6>
             <div class="col-12 d-flex stack justify-content-center my-1">
-              <i class="text-center text-capitalize" ><img class="mx-3" id="python" src="python.svg"  alt=""><br><p></p></i>
-              <i class="text-center text-capitalize" ><img class="mx-3" id="cplusplus" src="c++.svg" alt=""><br><p></p></i>
-              <i class="text-center" ><img class="mx-3" id="reactjs" src="reactjs.svg" alt=""><br><p></p></i>
+              <i class="text-center text-capitalize" ><img class="mx-3" id="python" src="svg/python.svg"  alt=""><br><p></p></i>
+              <i class="text-center text-capitalize" ><img class="mx-3" id="cplusplus" src="svg/c++.svg" alt=""><br><p></p></i>
+              <i class="text-center" ><img class="mx-3" id="reactjs" src="svg/reactjs.svg" alt=""><br><p></p></i>
             </div> 
-            <ul class="text-center">
+            <ul class="text-center px-0">
               <li class="list-inline">Data Sciences/Analysis</li>
               <li class="list-inline">Ethical Hacking</li>
               <li>MySQL</li>
             </ul>
           </div>
-
-          <div class="col-md-4 justify-content-center text-center" id="aboutContact">
-            <h4 class="mx-auto"><strong>Contacts</strong></h4>
-            <ul class="text-center">
-              <li class="list-inline"><i class="fas fa-phone mx-1"></i>081 767 9521</li>
-              <li class="list-inline"><i class="fab fa-whatsapp mx-1 list-inline-item"></i><a href="https://wa.me/27820524841" target="_blank">082 052 4841</a></li>
-              <li class="list-inline"><i class="fas fa-envelope mx-1 list-inline-item"></i>hectormavunda@gmail.com</li>
-            </ul>
-            <div class="social d-flex justify-content-center">
-              <a href="https://linkedin.com/in/hactor-mavunda-11485354/" class="mx-2" target="_blank">
-                <i class="fab fa-2x fa-linkedin"></i>
-              </a>
-              <a href="https://github.com/Mahlori1" class="mx-2" target="_blank">
-                <i class="fab fa-2x fa-github"></i>
-              </a>
-            </div>
-          </div>
         </div>
   </div>
   </div>
 
-    <footer>
-      <div class="footer3 bg-dark small text-center align-items-end">
-        &copy; 2022 Hactor Mahlori Mavunda 
-      </div>
-    </footer>
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>    
-  </body>
+  <footer>
+    <div class="footer small text-center align-items-end mb-2">
+      &copy; 2022 Hactor Mahlori Mavunda 
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>    
+</body>
 </html>
