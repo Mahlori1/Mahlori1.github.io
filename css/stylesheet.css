@@ -34,10 +34,19 @@ nav{
 @media screen and (min-width: 1200px) {
     nav{
         height: 5rem;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+     .nav-button {
+        border-radius: 0 25px 0 25px;
+        background-color: #9cbdb9;
     }
 
     .active{
-        border-bottom: #75918e solid 4px;
+        background-color: #3a5c59;
+        border-radius: 0 25px 0 25px;
+        color: white !important;
     }
 }
 
@@ -60,6 +69,10 @@ nav{
 |                                   @LANDING_PAGE                                   |
 |                                                                                   |
 \---------------------------------------------------------------------------------*/
+
+.home-div {
+    background: linear-gradient(to top, #3a5c59, 20%, white);
+}
 
 .landing-section{
     color: #171515;
