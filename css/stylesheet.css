@@ -72,6 +72,7 @@ nav{
 
 .home-div {
     background: linear-gradient(to top, #3a5c59, 20%, white);
+    height: 100vh;
 }
 
 .landing-section{
