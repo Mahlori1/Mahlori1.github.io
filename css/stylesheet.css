@@ -72,7 +72,6 @@ nav{
 
 .home-div {
     background: linear-gradient(to top, #3a5c59, 20%, white);
-    height: 100vh;
 }
 
 .landing-section{
@@ -84,18 +83,6 @@ nav{
 
 #displayImage {
     max-height: 30rem;
-}
-
-@media screen and (min-width: 992px) {
-    .landing-section{
-        width: 80%;
-        padding: 2rem 0rem 1rem; 
-    }
-
-    .home-div {
-        overflow-y: hidden;
-        height: 100vh;
-    }
 }
 
 .cards{
@@ -110,6 +97,16 @@ nav{
         width: 100%;
         margin: auto;
         
+    }
+
+    .landing-section{
+        width: 80%;
+        padding: 2rem 0rem 1rem; 
+    }
+
+    .home-div {
+        overflow-y: hidden;
+        height: 100vh;
     }
 
 }
