@@ -85,7 +85,7 @@ nav{
     max-height: 30rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .landing-section{
         width: 80%;
         padding: 2rem 0rem 1rem; 
