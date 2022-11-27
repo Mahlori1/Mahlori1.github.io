@@ -1,89 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Varela_Round/VarelaRound-Regular.ttf">
-    
-    <title>Hactor Mahlori Mavunda</title>
-</head>
-<body>
-  <div class="home-div">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="homeNav"> 
-          <div class="container" id="navbar">
-            <a class="navbar-brand brand-name text-muted" href="index.html">HACTOR MAVUNDA</a> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse navbar-scroll justify-content-end" id="navbarScroll">
-              <ul class="navbar-nav my-2 my-lg-0" style="--bs-scroll-height: max-content;">
-                <li class="nav-item mx-lg-2">
-                  <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item mx-lg-2">
-                  <a class="nav-link nav-button" href="about.html">About</a>
-                </li>
-                <li class="nav-item mx-lg-2">
-                  <a class="nav-link nav-button" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <title>Hactor Mahlori Mavunda</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav">
+      <div class="container">
+        
+        <a class="navbar-brand brand-name mx-auto text-center" href="#">HM MAVUNDA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" area-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end"  id="navbarScroll">
+          <ul class="navbar-nav nav justify-content-center">
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item js-scroll-trigger">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+    </nav>
+    
+    <header class="header" id="home">
+      <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase text-white">hactor mahlori mavunda</h1>
+                <h2 class="text-muted mx-auto mt-2 mb-5 text-uppercase">front-end web developer and ui designer</h2>
+                <a class="btn btn-primary" href="#about">Scroll down</a>
+            </div>
+        </div>
+    </div>
+    </header>  
+
+    <section id="about" class="about-section ">
+      <div class="container">
+        <h1 class="text-center mb-5">About</h1>
+          <h3 class="text-center"><strong>Skills & Tools</strong></h3>
+          <div class="justify-content-center mb-5">
+            <h6 class="text-center">Web development</h6>
+            <div class="col-12 d-flex stack justify-content-center my-0 mb-4">
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="fab fa-3x fa-html5 mx-4"></i>HTML5</div>
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="fab fa-3x fa-css3 mx-4"></i>CSS3</div>
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="fab fa-3x fa-js mx-4"></i>JS</div>
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="fab fa-3x fa-bootstrap mx-4"></i>Bootstrap5</div>
+              
+              
+              
             </div>
           </div>
-        </nav>
+
+          <div class="justify-content-center mb-5">
+            <h6 class="text-center">UI Design</h6>
+            <div class="col-12 d-flex stack justify-content-center mt-1 mb-4">
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="text-center text-capitalize" ><img class="mx-3" id="figma" src="svg/figma.svg"  alt=""></i></div>
+              <div class="card bg-dark py-3 text-center text-muted mx-2"><i class="text-center text-capitalize" ><img class="mx-3" id="adobexd" src="svg/adobexd.svg" alt=""></i></div>
+            </div>  
+          </div>
+
+          <div class="justify-content-center">
+            <h6 class="text-center">Other</h6>
+            <div class="col-12 d-flex stack justify-content-center my-1">
+              <div class="card bg-dark pt-3 text-center text-muted mx-2"><i class="text-center text-capitalize" ><img class="mx-3" id="python" src="svg/python.svg"  alt=""><br><p></p></i></div>
+              <div class="card bg-dark pt-3 text-center text-muted mx-2"><i class="text-center text-capitalize" ><img class="mx-3" id="cplusplus" src="svg/c++.svg" alt=""><br><p></p></i></div>
+              <div class="card bg-dark pt-3 text-center text-muted mx-2"><i class="text-center" ><img class="mx-3" id="reactjs" src="svg/reactjs.svg" alt=""><br><p></p></i></div>
+            </div> 
+          </div>
           
-          <main class="landing-section" >
-            <div class="row justify-content-center mx-auto ">
-              <div class="col-lg-5">
+
+        </div>  
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <h1 class="display-6 text-center py-4">Projects</h1>
+        <div class="row projects-container justify-content-center mx-auto">
+          <div class="col-lg-5">
+            <div class="card shadow-lg p-2 mb-5">
+              <img class="img-fluid card-img-top" src="images/flowersProject.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center">Flowers</h5>
+                <p class="text-black-50 card-text">Flowers is a one page site that advertises a flowers business. It is similar to a freelance portfolio site. Download it, customize it, and publish your website!</p>
+                <div class="col-12 d-flex stack my-0 mb-4">
+                  <i class="fab fa fa-html5 mx-2"></i>
+                  <i class="fab fa fa-css3 mx-2"></i>
+                  <i class="fab fa fa-js mx-2"></i>
+                  <i class="fab fa fa-bootstrap mx-2"></i>
+                </div>
                 <div class="text-center">
-                  <img id="displayImage" src="images/image6.png" alt="">
-                </div> 
-              </div>
-
-              <div class="col-lg-7 text-center text-lg-start order-lg-first">
-                <div class="col-md-12 text-uppercase mb-1">
-                  <h1 class="display-1 text-muted">Hactor Mavunda</h1>
-                  <h1 class="subheading display-6 text-muted">UI Designer & Front-end Developer</h1>
-                </div>
-                
-                <p class="mt-5 mb-1 text-muted">Contact me</p>
-                <a href="mailto: hectormavunda@gmail.com" class="btn btn-primary me-3"><i class="fa fa-envelope me-1"></i>Email</a>
-                <a href="https://wa.me/27820524841" class="btn btn-success"><i class="fab fa-whatsapp me-1"></i>WhatsApp</a>
-
-                <p class="mt-4 mb-1 text-muted">Profiles</p>
-                <div class="col-12 text-lg-start my-0 mb-2">
-                  
-                  <a href="https://linkedin.com/in/hactor-mavunda-11485354/" class="me-3" target="_blank">
-                    <i class="fab fa fa-linkedin"></i>LinkedIn
-                  </a>
-                  <a href="https://github.com/Mahlori1" class="mx-3" target="_blank">
-                    <i class="fab fa fa-github"></i>GitHub
-                  </a>
-                  <a href="https://my.indeed.com/p/hactorm-fzgmdaq" class="mx-3" target="_blank">
-                    Indeed Resume
-                  </a>
-                </div>
-                
-                <div class="footer small text-center align-items-end">
-                  &copy; 2022 Hactor Mahlori Mavunda
+                  <a class="btn btn-dark download-buttons" href="https://github.com/Mahlori1/flowers/archive/refs/heads/main.zip">Download Template</a>
                 </div>
               </div>
-      
             </div>
-      </main>
-  </div>
-    
-    <script src="js/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    
-</body>
+        </div>
 
+        <div class="col-lg-5">
+          <div class="card shadow-lg p-2 mb-5">
+            <img class="img-fluid mb-3 mb-lg-0 mx-auto mt-5 mt-lg-0" src="images/resumeSite.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title text-center">Resume Site</h5>
+              <p class="text-black-50 card-text">Resume is an online resume (CV) site. Just like Flowers, it is also open source so you can download it, customize it, and publish your website!</p> 
+              <div class="col-12 d-flex stack my-0 mb-4">
+                <i class="fab fa fa-html5 mx-2"></i>
+                <i class="fab fa fa-css3 mx-2"></i>
+                <i class="fab fa fa-js mx-2"></i>
+              </div>
+              <div class="text-center">
+                <a class="btn btn-dark download-buttons" href="https://github.com/Mahlori1/Resume1/archive/refs/heads/main.zip"  >Download Template</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+
+
+
+    </section>
+
+    <section class="contacts-section my-5 pt-5" id="contacts">
+      <div class="container text-center">
+        <h2 class="mb-4">Contact me</h2>
+        <a href="mailto: hectormavunda@gmail.com" class="btn buttons me-3"><i class="fa fa-envelope me-1"></i>Email</a>
+        <a href="https://wa.me/27820524841" class="btn buttons"><i class="fab fa-whatsapp me-1"></i>WhatsApp</a>
+      </div>
+    </section>
+
+    <footer class="text-center small" id="footer">
+      <div class="container">
+        <div class="d-flex justify-content-center my-5">
+                  
+          <a href="https://linkedin.com/in/hactor-mavunda-11485354/" class="me-3" target="_blank">
+            <i class="fab fa-4x fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Mahlori1" class="mx-3" target="_blank">
+            <i class="fab fa-4x fa-github"></i>
+          </a>
+        </div>
+
+        <div class="justify-content-center small">
+          &copy; 2022 HACTOR MAHLORI MAVUNDA
+        </div>
+      </div>
+    </footer>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    
+  </body>
 </html>
